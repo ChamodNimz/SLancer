@@ -1,0 +1,439 @@
+/*override with important with every line */
+.theme-btn{
+	
+}
+.theme-btn:hover{
+	background-color:
+}
+.pr{
+	padding-right:10px !important;
+}
+.pb{
+	padding-bottom: 10px !important;
+}
+.pl{
+	padding-left: 10px !important;
+}
+.pt{
+	padding-top: 10px !important;
+}
+.mt{
+	margin-top: 20px !important;
+}
+.mr{
+	margin-right: 10px !important;
+}
+.mb{
+	margin-bottom: 10px !important;
+}
+.ml{
+	margin-left: 15px !important;
+}
+.toast-label{
+	border-radius:100px;
+	padding: 10px;
+	background-color: #3CD1FA;
+	text-align: center;
+	color: white !important;
+}
+/*--------- Thumbnail edit for view lancers and services -------------*/
+.thumbnail img{
+	height: 180px !important;
+	width: auto !important;
+
+}
+.thumbnail{
+	opacity: 1 !important;
+	height: 450px !important;
+	transition: transform 0.4s !important;
+}
+.middle {
+  transition: .5s ;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+  text-align: center;
+}
+.thumbnail:hover .middle {
+  opacity: 1 !important;
+}
+
+.thumbnail:hover #back-image{
+	opacity: 0.8 !important;
+}
+.caption{
+	height: 255px  !important;
+	overflow: hidden;
+
+}
+.gig-header{
+	display: inline-block !important;
+	margin-top: 10px !important;
+}
+.price-tag{
+	font-size: 15px !important;
+	border-radius: 0px !important;
+	border-bottom-right-radius: 4px !important;
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+	margin-right: 100px !important;
+	background-color: #00AEB3 !important;
+
+}
+.online{
+	height: 10px !important;
+	width: 10px !important;
+	border-radius: 50% !important;
+	display: inline-block !important;
+	background-color: #44ed10 !important;
+	margin-left: 70px !important;
+	margin-top: 10px !important;
+}
+.online span{
+	position: relative !important;
+	margin-left: 17px !important;
+	top: -5px !important;
+}
+.off-line{
+	height: 10px !important;
+	width: 10px !important;
+	border-radius: 50% !important;
+	display: inline-block !important;
+	background-color: grey !important;
+	margin-left: 70px !important;
+	margin-top: 10px !important;
+}
+.off-line span{
+	position: relative !important;
+	margin-left: 17px !important;
+	top: -5px !important;
+}
+.lance-name{
+	position: absolute !important;
+	padding: 5px 5px 5px 5px !important;
+	background-color:white !important;
+	left: -500% !important;
+	top: -417% !important;
+	border-bottom-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	border-top-style: solid !important;
+	border-top-color: #34B3E4 !important;top
+
+}
+.avatar{
+	position: absolute !important;
+	border-style: solid;
+	border-color: white !important;
+	background-color: white !important;
+	left:75% !important;
+	top:  36% !important;
+	border-radius: 50% !important;
+	display: block !important;
+	z-index: 2 !important;
+
+}
+.avatar img{
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 50% !important;
+	display:block !important;	
+}
+.starRating:not(old){
+  display        : inline-block;
+  width          : 7.5em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background      : url('star-off.svg');
+  background-size : contain;
+}
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background      : url('star-on.svg');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+/**-------- Shadow css ----------**/
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+/* callouts bootstrap  css */
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+.not-round{
+	border-radius: 0px !important;
+}
+/*-------------accordian css code ------------*/
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e259" !important;    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+    font-size: 20px !important;
+
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e258" !important;    /* adjust as needed, taken from bootstrap.css */
+}
+.result-header{
+	background-color: #00AEB3 !important;
+}
+.result-title{
+	color: #D2ECEB !important;
+}
+/*-------------glyphicon customization css code ------------*/
+.glyphicon{
+	font-size: 17px !important;
+}
+.glyphicon-usd{
+	color: #005E93 !important;
+}
+.glyphicon-map-marker{
+	color: red !important;
+}
+/*------------ navbar colors and themes ------------------*/
+.navbar-default{
+	background-color:#005E93 !important;
+}
+nav div ul li a:hover{
+	color: #CFEDFB !important;
+}
+nav div ul li a{
+	color: #E6E9EC !important;
+}
+.text-light *{
+	color: white !important;
+}
+.dropdown{
+
+}
+/*--------------- material design radio buttons -------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0);
+  }
+}
+.md-radio {
+  margin: 16px 0;
+}
+.md-radio.md-radio-inline {
+  display: inline-block;
+}
+.md-radio input[type="radio"] {
+  display: none;
+}
+.md-radio input[type="radio"]:checked + label:before {
+  border-color: #337ab7;
+  animation: ripple 0.2s linear forwards;
+}
+.md-radio input[type="radio"]:checked + label:after {
+  transform: scale(1);
+}
+.md-radio label {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  padding: 0 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.md-radio label:before, .md-radio label:after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  transition-property: transform, border-color;
+}
+.md-radio label:before {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+}
+.md-radio label:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  background: #337ab7;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*----------- rounded for cards, circle tumbnails, curve the edges and gives that smooth  edge-------*/
+.rounded {
+  border-radius: 0.50rem !important;
+}
+
+.rounded-top {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+
+.rounded-right {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.rounded-bottom {
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-left {
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+/*------------ category selection menu cards ---------------*/
+.cat-item{
+	padding: 15px 10px 20px 10px !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	border-radius: 0.50rem !important;
+	transition: transform 0.3s !important;
+
+}
+.cat-item:hover{
+	transform: scale(1.03) !important;
+}
+.btn-success{
+	background-color: #44ed3d !important;
+}
+/*----------------carousal---------------------------------*/
+.item img{
+	width: 100% !important;
+	height: 250px !important;
+	max-height: 500px !important;
+	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+.carousel-caption{
+	padding-bottom: 70px !important;
+}
+/**
+*----------------------	 mini-cards for displaying something common minified----------------------
+**/
+.mini-card-hv{
+	padding: 30px !important;
+	transition: transform .4s !important;
+	height: 250px !important;
+	border-top-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+}
+.mini-card-hv:hover {
+	transform: scale(1.06);
+	cursor: pointer;
+}
+/* not hoverable mini-card*/
+.mini-card{
+	padding: 30px !important;
+}
